@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #005200;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0); /* Warna latar belakang navbar */
+    height: 97vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 500px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 13px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu1 {
+    background-color: rgba(244, 242, 242, 0.653); /* Warna latar belakang navbar */
+    height: 40vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 800px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 100px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu2 {
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 20vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 350px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 220px;
+    left: 620px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu3 {
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 20vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 350px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 220px;
+    left: 1020px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 150px;
+    color: rgb(255, 254, 254);
+}
+
+.content1 {
+    margin-top: 100px;
+    margin-left: 29px;
+    color: rgb(255, 254, 254);
+}
+
+.content2 {
+    margin-top: 270px;
+    margin-left: 100px;
+    color: rgb(0, 67, 11);
+}
+
+.content3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(0, 157, 26);
+}
+
+.content4 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content5 {
+    margin-top: 10px;
+    margin-left: 190px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content6 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content7 {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.img-thumbnail1 {
+   width: 35px;
+   height: 25px;
+   position: absolute;
+   margin-top: 533px ;
+   margin-left: 50px;
+}
+
+.img-thumbnail2 {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    margin-top: 574px ;
+    margin-left: 50px;
+}
+
+.img-thumbnail3 {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    margin-top: 613px ;
+    margin-left: 50px;
+}
+
+.img-thumbnail4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 60px ;
+    margin-left: 15px;
+}
+
+.img-thumbnail5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 60px ;
+    margin-left: 190px;
+}
+
+.profile-picture {
+    width: 100px; /* Sesuaikan lebar foto profil sesuai kebutuhan */
+    height: 100px; /* Sesuaikan tinggi foto profil sesuai kebutuhan */
+    border-radius: 20px; /* Menentukan radius sudut untuk membuat foto profil persegi dengan sudut tumpul */
+    overflow: hidden; /* Mengatasi gambar yang melebihi ukuran kontainer */
+    position: absolute;
+}
+
+.profile-picture img {
+    width: 100%; /* Memastikan gambar diisi sepenuhnya dalam kontainer */
+    height: auto; /* Menyesuaikan tinggi gambar agar tidak terdistorsi */
+    object-fit: cover; /* Memastikan gambar diatur agar memenuhi kontainer tanpa distorsi */
+}
+
+.position-profile {
+    top: 35px;
+    left: 30px;
+}
+
+.line {
+    width: 460px;
+    height: 10px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.line1 {
+    width: 460px;
+    height: 10px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 510px;
+    left: 37px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.line2 {
+    width: 410px;
+    height: 10px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 70px;
+    left: 22px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.line3 {
+    width: 10px;
+    height: 130px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 10px;
+    left: 155px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tombol {
+    width: 100px;
+    height: 30px;
+    top: 270px;
+    left: 30px;
+    font-size: large;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+.tombol2 {
+    width: 145px;
+    height: 30px;
+    top: 320px;
+    left: 30px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.tombol3 {
+    width: 150px;
+    height: 30px;
+    top: 660px;
+    left: 100px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown{
+    margin-top: 378px;
+    margin-left: 47px;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent; /* Warna latar belakang tetap sama saat dihover */
+}
+
+.dropdown-menu{
+    background-color: transparent;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.form-check-input{
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 270px;
+    position: absolute;
+}
