@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #005200;
+    background-image: url('/IPL/Image/background.jpg');
+    background-size: cover; /* Untuk memastikan gambar mengisi seluruh area background */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
 }
 
 .menu {
@@ -57,6 +59,36 @@ body {
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
     top: 220px;
     left: 1070px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu4 {
+    background-color: rgb(74, 74, 74); /* Warna latar belakang navbar */
+    height: 35vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 800px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 450px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu5 {
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 30vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 800px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 489px;
+    left: 600px;
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -121,6 +153,54 @@ body {
     position: absolute;
 }
 
+.content8 {
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: white;
+    position: absolute;
+}
+
+.content9 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content10 {
+    margin-top: 20px;
+    margin-left: 290px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content11 {
+    margin-top: 20px;
+    margin-left: 570px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content12 {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content13 {
+    margin-top: 100px;
+    margin-left: 320px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
 .img-thumbnail1 {
    width: 35px;
    height: 25px;
@@ -159,6 +239,22 @@ body {
     position: absolute;
     margin-top: 60px ;
     margin-left: 240px;
+}
+
+.img-thumbnail6 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 85px ;
+    margin-left: 630px;
+}
+
+.img-thumbnail7 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 150px ;
+    margin-left: 630px;
 }
 
 .profile-picture {
@@ -214,6 +310,19 @@ body {
     position: absolute;
     top: 10px;
     left: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.line4 {
+    width: 760px;
+    height: 10px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 70px;
+    left: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
