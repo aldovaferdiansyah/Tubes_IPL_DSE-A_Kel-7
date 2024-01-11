@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-image: url('/IPL/Image/background.jpg');
+    background-image: url('/Image/background.jpg');
     background-size: cover; /* Untuk memastikan gambar mengisi seluruh area background */
     background-repeat: no-repeat; /* Hindari pengulangan gambar */
 }
