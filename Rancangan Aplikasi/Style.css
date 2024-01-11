@@ -1,0 +1,78 @@
+/* Body */
+
+body{
+    background-image: url(gambar/background.png);
+    background-size: cover;
+}
+
+/* Form Gambar */
+
+.formGambar img {
+    width: 400px;
+    height: 580px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+/* Form Judul */
+
+.formJudul img {
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px;
+}
+
+.formJudul label {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 55px;
+    position: absolute;
+}
+
+/* Form Login */
+
+.formLogin {
+    color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 670px;
+}
+
+.formLogin h5 {
+    padding: 50px;
+    font-family: sans-serif;
+    margin-left: -35px;
+}
+
+.formLogin form input{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.formLogin button {
+    width: 350px;
+    margin-top: 35px;
+    color: white;
+}
+
+.gambar1 img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: -60px;
+    margin-top: 10px;
+}
+
+.gambar2 img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin-left: -60px;
+    margin-top: 5px;
+}
