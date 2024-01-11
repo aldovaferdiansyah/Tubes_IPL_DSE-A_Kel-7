@@ -1,8 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #005200;
+  background-image: url('bg.jpg'); 
+  background-size: 2500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: #fff;
 }
 
 .menu {
@@ -36,11 +38,26 @@ body {
 }
 .menu2 {
     background-color: rgb(255, 255, 255); /* Warna latar belakang navbar */
-    height: 40vh; /* Tinggi navbar setara dengan tinggi viewport */
+    height: 35vh; /* Tinggi navbar setara dengan tinggi viewport */
     width: 1200px; /* Lebar navbar */
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
     top: 175px;
     left: 600px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu3 {
+    background-color: rgba(114, 114, 114, 0.653); /* Warna latar belakang navbar */
+    height: 30vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 400px; /* Lebar navbar */
+    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
+    top: 550px;
+    right: 60px;
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -74,22 +91,234 @@ body {
 }
 
 .content4 {
-    margin-top: 40px;
-    margin-left: 50px;
-    color: rgb(1, 63, 17);
-
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
 }
 
-.content5 {
-    margin-top: -40px;
-    margin-left: 450px;
-    color: rgb(1, 63, 17);
+.kotak{
+    width: 250px;
+    height: 250px;
+    top: 50px;
+    left: 80px;
+    position: absolute;
 }
-.content6 {
+
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Optional: Styling untuk setiap heading */
+  .heading {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(0, 67, 11);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-text, .center-text, .right-icon {
+    margin-top: 20px;
+    flex: 1;
+    font-size: 1.5em;
+    color: rgb(0, 67, 11);
+  }
+  
+  .left-text {
+    text-align: left;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .right-icon {
+    text-align: right;
+  }
+  
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('ceklis.png');
+    background-size: cover;
+  }
+  
+
+
+
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-text2, .center-text2, .right-icon2 {
     margin-top: -40px;
-    margin-left: 900px;
-    color:  rgb(1, 63, 17);
-}
+    flex: 1;
+    font-size: 1.5em;
+    color: rgb(0, 67, 11);
+  }
+  
+  .left-text2 {
+    text-align: left;
+  }
+  
+  .center-text2 {
+    text-align: center;
+  }
+  
+  .right-icon2 {
+    text-align: right;
+  }
+  
+  .checkmark2 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('silang.png');
+    background-size: cover;
+  }
+
+
+
+
+  .container3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-text3, .center-text3, .right-icon3 {
+    margin-top: -40px;
+    flex: 1;
+    font-size: 1.5em;
+    color: rgb(0, 67, 11);
+  }
+  
+  .left-text3 {
+    text-align: left;
+  }
+  
+  .center-text3 {
+    text-align: center;
+  }
+  
+  .right-icon3 {
+    text-align: right;
+  }
+  
+ 
+
+
+  .container4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-text4, .center-text4, .right-icon4 {
+    margin-top: -40px;
+    flex: 1;
+    font-size: 1.5em;
+    color: rgb(0, 67, 11);
+  }
+  
+  .left-text4 {
+    text-align: left;
+  }
+  
+  .center-text4 {
+    text-align: center;
+  }
+  
+  .right-icon4 {
+    text-align: right;
+  }
+  
+
+  .container5 {
+    text-align: center;
+    margin-top: -200px;
+    margin-right: 500px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .container6 {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 270px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
 
 .img-thumbnail1 {
    width: 35px;
@@ -232,3 +461,4 @@ body {
     left: -50px;
     position: absolute;
 }
+
