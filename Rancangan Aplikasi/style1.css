@@ -23,11 +23,11 @@ body {
 }
 
 .menu1 {
-    background-color: rgba(187, 187, 187, 0.934); /* Warna latar belakang navbar */
-    height: 150px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 250px; /* Lebar navbar */
+    background-color: rgba(244, 242, 242, 0.653); /* Warna latar belakang navbar */
+    height: 40vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 800px; /* Lebar navbar */
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 200px;
+    top: 100px;
     left: 600px;
     display: flex;
     flex-direction: column;
@@ -37,14 +37,13 @@ body {
     border-top-right-radius: 20px;
 }
 
-
 .menu2 {
-    background-color: rgba(42, 24, 204, 0.934); /* Warna latar belakang navbar */
-    height: 30px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 190px; /* Lebar navbar */
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 20vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 430px; /* Lebar navbar */
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 300px;
-    left: 885px;
+    top: 220px;
+    left: 620px;
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -54,12 +53,12 @@ body {
 }
 
 .menu3 {
-    background-color: rgba(187, 187, 187, 0.934); /* Warna latar belakang navbar */
-    height: 150px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 250px; /* Lebar navbar */
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 20vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 300px; /* Lebar navbar */
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 400px;
-    left: 600px;
+    top: 220px;
+    left: 1070px;
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -68,14 +67,13 @@ body {
     border-top-right-radius: 20px;
 }
 
-
 .menu4 {
-    background-color: rgba(42, 24, 204, 0.934); /* Warna latar belakang navbar */
-    height: 30px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 190px; /* Lebar navbar */
+    background-color: rgb(74, 74, 74); /* Warna latar belakang navbar */
+    height: 35vh; /* Tinggi navbar setara dengan tinggi viewport */
+    width: 800px; /* Lebar navbar */
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 500px;
-    left: 885px;
+    top: 450px;
+    left: 600px;
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -85,60 +83,18 @@ body {
 }
 
 .menu5 {
-    background-color: rgba(187, 187, 187, 0.934); /* Warna latar belakang navbar */
-    height: 150px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 250px; /* Lebar navbar */
-    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 600px;
-    left: 600px;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-
-.menu6 {
-    background-color: rgba(42, 24, 204, 0.934); /* Warna latar belakang navbar */
-    height: 30px; /* Tinggi navbar setara dengan tinggi viewport */
-    width: 190px; /* Lebar navbar */
-    position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 700px;
-    left: 885px;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.searchbox {
-    background-color: rgba(62, 60, 60, 0.653); /* Warna latar belakang navbar */
-    height: 40px; /* Tinggi navbar setara dengan tinggi viewport */
+    background-color: rgba(255, 255, 255, 0.741); /* Warna latar belakang navbar */
+    height: 30vh; /* Tinggi navbar setara dengan tinggi viewport */
     width: 800px; /* Lebar navbar */
-    padding: 10px 35px ;
     position: fixed; /* Membuat navbar tetap di posisi saat digulir */
-    top: 50px;
+    top: 489px;
     left: 600px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.searchbox input{
-    border: none;
-    outline: none;
-    background: none;
-    width: 700px;
-}
-
-.searchbox a{
-    color: white;
-    width: 750px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .content {
@@ -160,55 +116,89 @@ body {
 }
 
 .content3 {
-    margin-top: 220px;
-    margin-left:710px;
-    color: rgb(255, 255, 255);
-    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(0, 157, 26);
 }
 
 .content4 {
-    margin-top: 0px;
-    margin-left: 10px;
-    color: rgb(255, 255, 255);
-    font-size:large;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: large;
+    color: rgb(0, 157, 26);
+    position: absolute;
 }
 
-.content5{
-    margin-top: 120px;
-    margin-left: 600px;
+.content5 {
+    margin-top: 10px;
+    margin-left: 240px;
+    font-size: large;
+    color: rgb(0, 157, 26);
     position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: medium;
 }
 
 .content6 {
-    margin-top: 420px;
-    margin-left:900px;
-    position: absolute;
-    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 20px;
     font-size: large;
+    color: rgb(0, 157, 26);
+    position: absolute;
 }
 
 .content7 {
-    margin-top: 0px;
-    margin-left: 10px;
-    color: rgb(255, 255, 255);
-    font-size:large;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: large;
+    color: rgb(0, 157, 26);
+    position: absolute;
 }
 
 .content8 {
-    margin-top: 620px;
-    margin-left:900px;
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: white;
     position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: large;
 }
 
 .content9 {
-    margin-top: 0px;
-    margin-left: 10px;
-    color: rgb(255, 255, 255);
-    font-size:large;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content10 {
+    margin-top: 20px;
+    margin-left: 290px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content11 {
+    margin-top: 20px;
+    margin-left: 570px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content12 {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
+}
+
+.content13 {
+    margin-top: 100px;
+    margin-left: 320px;
+    font-size: x-large;
+    color: rgb(0, 157, 26);
+    position: absolute;
 }
 
 .img-thumbnail1 {
@@ -236,27 +226,35 @@ body {
 }
 
 .img-thumbnail4 {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     position: absolute;
-    margin-top: 20px ;
-    margin-left: 60px;
+    margin-top: 60px ;
+    margin-left: 15px;
 }
 
 .img-thumbnail5 {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     position: absolute;
-    margin-top: 20px ;
-    margin-left: 60px;
+    margin-top: 60px ;
+    margin-left: 240px;
 }
 
 .img-thumbnail6 {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    margin-top: 20px ;
-    margin-left: 60px;
+    margin-top: 85px ;
+    margin-left: 630px;
+}
+
+.img-thumbnail7 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 150px ;
+    margin-left: 630px;
 }
 
 .profile-picture {
@@ -277,7 +275,6 @@ body {
     top: 35px;
     left: 30px;
 }
-
 
 .line {
     width: 460px;
@@ -304,6 +301,32 @@ body {
     position: absolute;
     top: 70px;
     left: 22px;
+}
+
+.line3 {
+    width: 10px;
+    height: 130px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.line4 {
+    width: 760px;
+    height: 10px;
+    background-color: rgb(1, 63, 17);
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .tombol {
@@ -334,14 +357,14 @@ body {
     
 }
 .tombol3 {
-    width: 250px;
+    width: 190px;
     height: 30px;
     top: 660px;
     left: 100px;
     position: absolute;
     background-color: transparent;
     border: none;
-    color: white;
+    color: red;
     font-size: large;
     cursor: pointer;
     text-decoration: none;
